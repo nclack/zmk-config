@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define BASE 0
-#define NAV 1
+#define NAV 5
 #define MEDIA 4
 #define NUM 3
 #define SYM 2
