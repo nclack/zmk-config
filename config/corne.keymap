@@ -26,7 +26,7 @@
    &kp LSHFT &kp Z      &kp X      &kp C       &kp V         &kp B                    &kp N   &kp M         &kp COMMA   &kp DOT    &kp FSLH      &kp ESC
 //                                    &lt FUN DEL &lt NUM BSPC  &kp SYM ENTER            &kp TAB &lt NAV SPACE &lt MEDIA ESC
                         //  &lt FUN DEL &lt NUM BSPC  &kp SYM ENTER            &trans &trans &trans
-                        &trans &trans  &trans            &kp TAB &lt NAV SPACE &lt MEDIA ESC
+                        &trans &lt NUM BSPC  &trans            &kp TAB &lt NAV SPACE &lt MEDIA ESC
 
                         >;
                 };
