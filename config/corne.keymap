@@ -33,9 +33,9 @@
 
                 BASE {  
                         bindings = <
-   &kp TAB   &kp Q      &kp W      &kp E        &kp R         &kp T                    &kp Y   &kp U         &kp I       &kp O      &kp P         &kp BSPC 
-   &kp LCTRL &hm LGUI A &hm LALT S &hm LCTRL D  &hm LSHIFT F  &kp G                    &kp H   &hm RSHIFT J  &hm RCTRL K &hm RALT L &hm RGUI SEMI &kp SQT
-   &kp LSHFT &kp Z      &kp X      &kp C        &kp V         &kp B                    &kp N   &kp M         &kp COMMA   &kp DOT    &kp FSLH      &kp ESC
+   &kp LALT  &kp Q &kp W      &kp E        &kp R         &kp T                    &kp Y   &kp U         &kp I       &kp O      &kp P    &kp GUI
+   &kp LCTRL &kp A &hm LALT S &hm LCTRL D  &hm LSHIFT F  &kp G                    &kp H   &hm RSHIFT J  &hm RCTRL K &hm RALT L &kp SEMI &hm RCTRL SQT
+   &kp LSHFT &kp Z &kp X      &kp C        &kp V         &kp B                    &kp N   &kp M         &kp COMMA   &kp DOT    &kp FSLH &kp RSHIFT
                                    &lt FUN BSPC &lt NUM DEL   &lt SYM RET              &kp SPACE &lt NAV TAB &lt MEDIA ESC
                         >;
                 };
@@ -44,7 +44,7 @@
                         bindings = <
    &trans &kp HOME     &kp UP        &kp END        &kp PG_UP     &kp INS               &trans &trans     &trans    &trans   &trans   &trans
    &trans &kp LEFT     &kp DOWN      &kp RIGHT      &kp PG_DN     &kp CAPS              &trans &kp RSHIFT &kp RCTRL &kp RALT &kp RGUI &trans
-   &trans &kp K_CUT    &kp K_COPY    &kp K_PASTE    &kp K_REDO    &kp K_UNDO            &trans &trans     &trans    &trans   &trans   &trans
+   &trans &kp C_AC_CUT &kp C_AC_COPY &kp C_AC_PASTE &kp C_AC_REDO &kp C_AC_UNDO         &trans &trans     &trans    &trans   &trans   &trans
                                      &kp DOT        &trans        &trans                &trans &trans     &trans
                         >;
                 };
