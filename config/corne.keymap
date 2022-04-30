@@ -62,8 +62,8 @@
                 NUM {
                         bindings = <
    &trans &trans   &trans   &trans    &trans     &trans              &kp LBKT  &kp N7 &kp N8  &kp N9 &kp RBKT &trans
-   &trans &kp LGUI &kp LALT &kp LCTRL &kp LSHIFT &trans              &kp EQUAL &kp N4 &kp N5  &kp N6 &kp SEMI &trans
-   &trans &trans   &trans   &trans    &trans     &trans              &kp BSLH  &kp N1 &kp N2  &kp N3 &kp SQT  &trans
+   &trans &kp LGUI &kp LALT &kp LCTRL &kp LSHIFT &trans              &kp EQUAL &kp N4 &kp N5  &kp N6 &kp SEMI &kp TAB
+   &trans &trans   &trans   &trans    &trans     &trans              &kp BSLH  &kp N1 &kp N2  &kp N3 &kp SQT  &kp SPACE
                             &trans    &trans     &trans              &kp MINUS &kp N0 &kp DOT
                         >;
                 };
@@ -71,8 +71,8 @@
                 SYM {
                         bindings = <
    &trans &trans   &trans   &trans    &trans     &trans              &kp LBRC  &kp AMPS   &kp STAR    &kp LPAR  &kp RBRC  &trans
-   &trans &kp LGUI &kp LALT &kp LCTRL &kp LSHIFT &trans              &kp PLUS  &kp DOLLAR &kp PERCENT &kp CARET &kp COLON &trans
-   &trans &trans   &trans   &trans    &trans     &trans              &kp PIPE  &kp EXCL   &kp AT      &kp HASH  &kp TILDE &trans
+   &trans &kp LGUI &kp LALT &kp LCTRL &kp LSHIFT &trans              &kp PLUS  &kp DOLLAR &kp PERCENT &kp CARET &kp COLON &kp TAB
+   &trans &trans   &trans   &trans    &trans     &trans              &kp PIPE  &kp EXCL   &kp AT      &kp HASH  &kp TILDE &kp SPACE
                             &trans    &trans     &trans              &kp UNDER &kp LPAR   &kp RPAR
                         >;
                 };
@@ -82,7 +82,7 @@
    &trans &trans   &trans   &trans    &trans     &trans              &kp PSCRN       &kp F7 &kp F8   &kp F9   &kp F12 &trans
    &trans &kp LGUI &kp LALT &kp LCTRL &kp LSHIFT &trans              &kp SLCK        &kp F4 &kp F5   &kp F6   &kp F11 &trans
    &trans &trans   &trans   &trans    &trans     &trans              &kp PAUSE_BREAK &kp F1 &kp F2   &kp F3   &kp F10 &trans
-                            &trans    &trans     &trans              &kp TAB &kp SPACE   &kp K_APP
+                            &trans    &trans     &trans              &kp SPACE       &kp TAB &kp K_APP
                         >;
                 };
         };
